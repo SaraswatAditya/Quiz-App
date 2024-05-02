@@ -1,0 +1,39 @@
+@import "./vars.scss";
+
+body {
+  font-family: monospace;
+  background: linear-gradient(0deg, $primary 0.03%, $accent);
+  color: $foreground;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 30px;
+  height: 100vh;
+}
+.home-div{
+  text-align: center;
+  font-size: large;
+}
+
+.link-div {
+  display: inline-block;  /* Allows the link to be styled like a button */
+  padding: 10px 20px;     /* Adds padding to give it a button-like appearance */
+  background-color: #25042e; /* Background color (e.g., blue) */
+  color: white;           /* Text color (white on blue) */
+  text-decoration: none;  /* Removes underline from the link */
+  border-radius: 10px;    /* Rounds the corners */
+  font-weight: bold;      /* Makes the text bold */
+  transition: background-color 0.3s; /* Smooth transition for hover effects */
+}
+
+.link-div:hover {
+  background-color: #5c00b3; /* Darker shade on hover for interactivity */
+}
+
+.link-div:active {
+  background-color: #004080; /* Even darker shade when the link is active (pressed) */
+}
+
+.ul-div{
+  text-align: left;
+}

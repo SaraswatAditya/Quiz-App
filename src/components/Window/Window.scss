@@ -1,0 +1,18 @@
+$primary: #0a0a0428;
+$accent: #020102;
+$bg: #ffffff;
+$bg-accent: #e7e8e9;
+$disabled: #9c9c9c;
+
+
+.promptButton {
+    background: linear-gradient(0deg, $primary 0.03%, $accent);
+    border-radius: 9px;
+    font-size: 12px;
+    color: $bg;
+    padding: 10px 32px;
+    outline: none;
+    border: none;
+    margin-top: 50px;
+    cursor: pointer;
+}
