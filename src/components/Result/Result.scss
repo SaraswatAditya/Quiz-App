@@ -1,0 +1,29 @@
+@import "../../styles/vars.scss";
+.result {
+    text-align: center;
+
+    h3 {
+      font-size: 24px;
+      letter-spacing: 1.4px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 500;
+
+      span {
+        color: $disabled;
+        font-size: 22px;
+      }
+    }
+    table {
+        width: 50%;
+        text-align: left;
+        margin: 50px auto 20px;
+        border-collapse: collapse;
+        tr{
+            border: 1px solid;
+        }
+    }
+  }
